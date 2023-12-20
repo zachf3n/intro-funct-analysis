@@ -6,5 +6,5 @@ My focal resource is:
 1)  Deimling - "Nonlinear Functional Analysis" - Chapter 1
 
 Supplemental Resources:
-1) Royden & Fitzpatrick - "Real Analysis" - Chapter 14
-2) Kreyszig - "Introduction to Functional Analysis with Application" 
+1)   Royden & Fitzpatrick - "Real Analysis" - Chapter 14
+2)   Kreyszig - "Introduction to Functional Analysis with Application" 

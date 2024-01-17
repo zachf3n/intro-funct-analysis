@@ -19,6 +19,7 @@
 \newcommand{\vx}{ \mathbf{x} }
 \newcommand{\vy}{ \mathbf{y} }
 \newcommand{\degree}{^\circ}
+\graphicspath{graphics}
 
 
 \title{Functional Analysis Exploration 3}
@@ -35,13 +36,13 @@ Here, $\bar{C}^1(\Omega) = C^1(\Omega) \cap C(\bar{\Omega})$ and $J_f (x) = \tex
 I tried to draw some examples of what I think the degree functional does.
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width = .5\textwidth]{/Users/zacharyfendler/Documents/TeX/images/degree1.jpeg}
+	\includegraphics[width = .5\textwidth]{degree1.jpeg}
 	\caption{Illustration of degree in one dimension on the unit interval in the regular case.}
 \end{figure}
 My current struggle in understanding of the definition of the regular case is the $x \in f^{-1}(y)$ in the summand. It is important to keep in mind that we are currently interested in $f(x) = y$. Then, for example, when $y=0.5$, $f_1$ will only hit $y$ one time and the derivative is positive. So the degree is $1$. This follows for all $y$ on this particular function. Similarly, for $f_2$, if $y=0.5$, $f_2$ likely has $3$ points $x_1,x_2,x_3 \in \Omega$ such that $f_2(x_i) = 0.5$ for $i = 1,2,3$. Suppose $x_1 < x_2 < x_3$ then, according to the illustration, the sign of the derivatives for each point respectively are $+1, - 1, +1$ and summing to $+1$. Some of the proofs in section two I found hard to understand. Particularly, propositions 2.1 and beginning of subsection 2.2. I know my integration understanding is weaker in real analysis but it is the usage of mollifiers that confuses me. Intuitively, I need to remember that mollifier functions are used to be a smooth approximator for a function or functions of interest. I was able to get a picture for subsection 2.2 set up. It is the integral part that is difficult.
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width = .5\textwidth]{/Users/zacharyfendler/Documents/TeX/images/subsect2-2.jpeg}
+	\includegraphics[width = .5\textwidth]{subsect2-2.jpeg}
 	\caption{Example of the set up in Deimling proposition 2.2}
 \end{figure}
 In words, I believe that proposition 2.1 gives us a new definition for degree in a more general case using the mollifier function. Subsection 2.2 is applying the new definition to allow us to consider singular values. Recall the definition of mollifier as $\varphi_\alpha : \, \R^n \rightarrow \R$ given by 
